@@ -331,13 +331,21 @@ h2 {
 }
 
 .contact-list a {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.55rem;
   color: var(--text);
   text-decoration: none;
-  transition: color 0.3s ease;
+  transition: color 0.3s ease, transform 0.3s ease;
 }
 
 .contact-list a:hover {
   color: var(--accent-2);
+  transform: translateX(3px);
+}
+
+.contact-icon {
+  font-size: 1.05rem;
 }
 
 .footer {
