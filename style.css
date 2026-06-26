@@ -165,6 +165,13 @@ h2 {
   flex-wrap: wrap;
 }
 
+.contact-actions {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+  flex-wrap: wrap;
+}
+
 .btn {
   display: inline-block;
   padding: 0.85rem 1.25rem;
